@@ -12,7 +12,7 @@
     correct = secretCode === code.toLowerCase();
 
     if (correct) {
-      alert("Eres un genio! Acertasté! 🥳");
+      alert("Eres un genio! Acertaste! 🥳");
       alert("Hasta luego!");
     } else if (secretCode !== code && lives > 1) {
       lives--;
